@@ -1,7 +1,7 @@
 {
   "name": "credit-app-mvc",
   "version": "1.0.0",
-  "description": "This project is a base example for MVC pattern with Express and Handlebars",
+  "description": "Proyecto creado a partir de base MVC adaptando los métodos y cálculos",
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
