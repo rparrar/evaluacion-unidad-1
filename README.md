@@ -7,7 +7,7 @@ Para actualizar dependencias utilizadas en esta app:
 npm install
 ```
 
-Para correr el protecto en producción:
+Para correr el proyecto en producción:
 
 ```
 npm start
