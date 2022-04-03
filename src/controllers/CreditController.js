@@ -4,9 +4,8 @@ class CreditController {
   }
 
   renderCreditForm (req, res) {
-    const simpleRate = 0
-    res.render('credit-form' , {
-      title : 'Cálculo de interés simple'
+    res.render('credit-form', {
+      title: 'Cálculo de interés simple'
     })
   }
 
@@ -15,7 +14,7 @@ class CreditController {
     const rate = parseInt(req.body.rate)
     const years = parseInt(req.body.years)
     const simpleRate = ammount * (rate / 100) * years
-    
+
     res.render('credit-form', {
       simpleRate
     })
